@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;netframework4.8</TargetFrameworks>
+		<OutputType>Exe</OutputType>
+		<RootNamespace />
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\AutoSharpDevEnv\AutoSharpDevEnv.csproj" />
+	  <ProjectReference Include="..\AutoSharp\AutoSharp.csproj" />
+	</ItemGroup>
+</Project>
