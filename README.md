@@ -52,7 +52,7 @@ namespace Moudles
 
 ### 一般
 
-1. 執行 `AutoSharpDevTester` 專案。
+1. 執行 `AutoSharpDevTester` 專案
 
 - 你可以使用 `send` 關鍵字來模擬訊息輸入，例如 `send hello` 會傳送 `hello` 給 AutoSharp
 
@@ -60,7 +60,7 @@ namespace Moudles
 
 如果你希望在自己的專案中使用 AutoSharp。
 
-1. 建置 `AutoSharpDevEnv` 將腳本儲存為一個模組。
+1. 建置 `AutoSharpDevEnv` 將腳本儲存為一個模組
 2. 建置 `AutoSharp` 專案
 3. 為目標專案引用 `AutoSharp.dll` 參考
 4. 使用 `AutoSharpLifeCycle.Start()` 開啟
@@ -80,9 +80,9 @@ foreach (var module in Module.GetModules())
 }
 ```
 
-### ACT 安裝
+### 在 ACT 中使用 AutoSharp
 
-1. 建置 `AutoSharpDevEnv` 將腳本儲存為一個模組。
+1. 建置 `AutoSharpDevEnv` 將腳本儲存為一個模組
 2. 建置 `AutoSharpActPlugin` 專案
 3. 將 `AutoSharpActPlugin.dll` 新增到 ACT Plugin 中
 4. 在 `AutoSharpActPlugin.dll` 的目錄建立資料夾 `Modules` 並將目標模組放在這裡
